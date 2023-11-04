@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+
+.slider-wrapper {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: 1s;
+}
+
+.navigation-bar {
+  position: relative;
+  left: calc(50% - 43px);
+  margin-top: 20px;
+}
